@@ -21,10 +21,12 @@ margin: 100px auto;
 }
 .btns {
     margin: 0 auto;
-    margin-top: -100px
+    
 }
 .footer {
     display: flex;
+    flex-direction: column; 
+    padding: 20px 10px;
 }
 .footer-flex{
     display:flex;
