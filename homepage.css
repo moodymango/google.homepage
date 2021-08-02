@@ -1,0 +1,32 @@
+/*CSS Style Sheet */
+body{ 
+    font-family: 'Roboto' , sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 70%;
+max-width: 800px;
+margin: 100px auto;
+}
+.btns 
+#logo{
+    margin: 20px auto;
+}
+#search{
+    margin: 5px 5px;
+    border-radius: 20px;
+    padding: 10px 50px;
+    border-color: none;
+}
+
