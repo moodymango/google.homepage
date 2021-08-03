@@ -36,11 +36,14 @@ margin: 100px auto;
     bottom: 0;
     width: 100%;
     background-color: #f3f2f2;
+    left: 0px;
+    margin: 0 auto;
 }
 ul {
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer li {
     display: inline-block;
