@@ -1,6 +1,7 @@
 /*CSS Style Sheet */
 body{ 
     font-family: 'Roboto' , sans-serif;
+    font-size: 12px;
 }
 .container {
     display: flex;
@@ -10,6 +11,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
 }
 .main{
 display: flex;
@@ -21,17 +25,36 @@ margin: 100px auto;
 }
 .btns {
     margin: 0 auto;
-    
+}
+.btn {
+    background-color: #f3f2f2;
+    border-radius: 3px;
 }
 .footer {
-    display: flex;
-    flex-direction: column; 
-    padding: 20px 10px;
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f3f2f2;
 }
-.footer-flex{
+ul {
     display:flex;
-    justify-content: space-between; 
+    flex-direction: row;
+    justify-content: space-around;
 }
+.footer li {
+    display: inline-block;
+}
+.footer a {
+    display: inline;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align:center;
+}
+
+
+
+
 #logo{
     margin: 20px auto;
     text-align: center;
