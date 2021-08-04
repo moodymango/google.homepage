@@ -1,7 +1,7 @@
 /*CSS Style Sheet */
 body{ 
     font-family: 'Roboto' , sans-serif;
-    font-size: 12px;
+    font-size: 10px;
 }
 .container {
     display: flex;
@@ -13,39 +13,45 @@ body{
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    text-decoration: none;
 }
-.nav a, button{
+.nav a, button, span{
     padding: 10px;
-}
-#nav{
     text-decoration: none;
 }
+.nav button{
+    background-color: rgba(19, 156, 247, 0.979);
+    color: white;
+    border-style:none;
+    border-radius: 3px;
+}
+
 .right-flex, .left-flex {
     display:flex;
     flex-direction: inline-block;
 }
 .main{
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 flex-direction: column;
-width: 70%;
-max-width: 800px;
-margin: 100px auto;
+width: 80%;
+max-width: 90%;
+margin: 10em auto;
 }
 .btns {
-    margin: 0 auto;
+    margin: -7em auto;
+
 }
 .btn {
-    background-color: #f3f2f2;
-    border-radius: 3px;
+    background-color: #f3f2f27e;
+    border-radius: 5px;
+    border-style:none;
 }
 .footer {
     list-style: none;
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f3f2f2;
+    background-color: #f3f2f27e;
     left: 0px;
 }
 ul {
@@ -59,9 +65,9 @@ ul {
 }
 .footer a {
     display: inline;
-    padding: 10px 12px;
     text-decoration: none;
     text-align:center;
+    padding: 1rem .5em;
 }
 .footer-left {
     display: flex;
@@ -76,27 +82,26 @@ ul {
 }
 
 
-
 #logo{
     margin: 20px auto;
     text-align: center;
 }
 
 #search{
-    text-align: center;
-    margin: 5px 5px;
+    margin: 5px auto;
     border-radius: 20px;
-    padding: 10px 80px;
-    border-color: none;
+    padding: .5rem 11rem;
+    border-color: rgba(5, 4, 4, 0.356);
 }
 .search-bar{
     margin: 0 auto;
     position: relative;
+    width: 100%;
+    text-align: center;
 }
 
 #glass{
     position: absolute;
-    left: 15px;
-    top: 10px;
+    margin-left: .5em;
 }
 
