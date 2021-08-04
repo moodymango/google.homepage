@@ -15,6 +15,16 @@ body{
     margin: 0;
     text-decoration: none;
 }
+.nav a, button{
+    padding: 10px;
+}
+#nav{
+    text-decoration: none;
+}
+.right-flex, .left-flex {
+    display:flex;
+    flex-direction: inline-block;
+}
 .main{
 display: flex;
 justify-content: center;
@@ -73,9 +83,20 @@ ul {
 }
 
 #search{
+    text-align: center;
     margin: 5px 5px;
     border-radius: 20px;
-    padding: 10px 50px;
+    padding: 10px 80px;
     border-color: none;
+}
+.search-bar{
+    margin: 0 auto;
+    position: relative;
+}
+
+#glass{
+    position: absolute;
+    left: 15px;
+    top: 10px;
 }
 

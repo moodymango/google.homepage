@@ -8,4 +8,8 @@ Hopefully the lesseons I have learned from the Responsive Web Design course will
             OOF, spacing is also a trip. Somehow I get by with the grace of text-align and more flexbox!
     2. Buttons
         Kinda struggling with the buttons and how frustrating they can be. It is kinda hard to get them to the level that I want them to be.
+    3. Icons 
+        Learning to place icons inside the input box was kind of a struggle, but it allowed me to practice with position relative and absolute for a little bit 
+        **using top and left in css can help posiion the icon within the input bar, which is how I got the magnifying glass inside the input!
+        
 Good luck me!
