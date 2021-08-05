@@ -99,6 +99,9 @@ ul {
     width: 100%;
     text-align: center;
 }
+.bar:hover {
+    box-shadow: 0 0 11px;
+}
 
 #glass{
     position: absolute;
